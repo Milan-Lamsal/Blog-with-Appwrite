@@ -1,0 +1,127 @@
+#root {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Browser CSS styles for blog content */
+.browser-css {
+  text-align: left;
+}
+
+.browser-css h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.browser-css h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.browser-css h3 {
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.browser-css p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.browser-css ul, .browser-css ol {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.browser-css a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.browser-css blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-bottom: 1em;
+  font-style: italic;
+  color: #4b5563;
+}
+
+.browser-css pre {
+  background-color: #f3f4f6;
+  padding: 1em;
+  border-radius: 0.375em;
+  overflow-x: auto;
+  margin-bottom: 1em;
+}
+
+.browser-css code {
+  font-family: monospace;
+  background-color: #f3f4f6;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25em;
+}
+
+/* Dark mode overrides */
+.dark .browser-css h1,
+.dark .browser-css h2,
+.dark .browser-css h3 {
+  color: #e5e7eb;
+}
+
+.dark .browser-css pre,
+.dark .browser-css code {
+  background-color: #374151;
+  color: #e5e7eb;
+}
+
+.dark .browser-css blockquote {
+  border-left-color: #4b5563;
+  color: #9ca3af;
+}
+
+.dark .browser-css a {
+  color: #3b82f6;
+}
